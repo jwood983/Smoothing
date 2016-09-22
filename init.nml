@@ -1,0 +1,6 @@
+&particles
+filename='thin_shell.txt'
+resolution = 0.00390625
+/
+
+! The above '/' MUST be there
