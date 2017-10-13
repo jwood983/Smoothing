@@ -1,7 +1,7 @@
-Smoothing
-=========
+Smudge
+======
 
-Smoothing will smooth a set of particle positions onto a square grid, simulating a CCD image of an astronomical object. The file of particle positions are expected to be normalized such that `maxval(x) = 1`. File input and adaptive resolutions (up to 10) are accessed through the `init.nml` file, a Fortran namelist file that looks like
+Smudge will smooth a set of particle positions onto a square grid, simulating a CCD image of an astronomical object. The file of particle positions are expected to be normalized such that `maxval(x) = 1`. File input and adaptive resolutions (up to 10) are accessed through the `init.nml` file, a Fortran namelist file that looks like
 
     &particles
      filename = 'thin_shell.txt'
